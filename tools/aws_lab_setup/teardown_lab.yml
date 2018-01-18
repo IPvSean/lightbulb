@@ -19,7 +19,6 @@
 
   roles:
     - manage_ec2_instances
-    - { role: aws_workshop_login_page, when: create_login_page is defined }
 
   post_tasks:
    - name: Remove inventory files
