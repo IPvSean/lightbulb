@@ -3,7 +3,7 @@
 ## Clone Network-Automation Lightbulb
 
 ```bash
-git clone https://github.com/network-automation/lightbulb
+git clone https://github.com/ansible/lightbulb
 ```
 
 ## Move into aws_lab_setup directory
