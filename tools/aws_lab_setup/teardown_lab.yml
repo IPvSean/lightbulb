@@ -36,7 +36,7 @@
 
    - name: Remove private key file
      file:
-       path: '{{ playbook_dir }}/*.pem'
+       path: './aws-private.pem'
        state: absent
 
    - name: Remove old keys
