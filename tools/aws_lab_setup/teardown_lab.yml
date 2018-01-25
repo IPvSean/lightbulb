@@ -7,7 +7,6 @@
   vars:
     ec2_wait: no
     teardown: true
-    create_lab: false
     s3_state: absent
     state: absent
 
@@ -41,6 +40,6 @@
        state: absent
 
    - name: Remove old keys
-     shell: ssh-add -D
+     command: ssh-add -D
      register: removal
      changed_when: removal.stdout_lines | length > 0
